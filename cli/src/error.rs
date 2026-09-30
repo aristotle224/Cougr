@@ -79,8 +79,7 @@ impl CliError {
                 Some("run `cougr add --list` to see available pieces".to_string())
             }
             CliError::InvalidProject { .. } => Some(
-                "run `cougr add` from inside a project created with `cougr new`, \
-                 or pass `--path <project-dir>` to target a directory explicitly"
+                "run `cougr add` from inside a project created with `cougr new`"
                     .to_string(),
             ),
             CliError::PieceConflict { .. } => None,

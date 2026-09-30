@@ -202,8 +202,7 @@ fn add_outside_a_project_reports_the_error_and_a_hint() {
     );
 }
 
-
-/// against the published `cougr-core`.
+/// Compile every template against the published `cougr-core`.
 ///
 /// Ignored by default because it downloads and compiles the Soroban SDK.
 #[test]
